@@ -2,19 +2,22 @@
 
 1. `SELECT salary FROM emp WHERE Emp_ID = "273407"`
 
-   - `(110241)`
+   - 110241
 
 2. `SELECT First_Name FROM emp WHERE City = "Palo Alto" AND Gender = "F"`
 
-   - `(Dawne)`
+   - Dawne
 
 3. `SELECT First_Name, Last_Name, Years_in_Company FROM emp order by Years_in_Company DESC limit 1`
 
-   - `(Otha Orrell)`
+   - Otha Orrell
 
 4. `SELECT First_Name , Last_Name , Age_in_Years , City , State FROM emp WHERE First_Name = "Jack"`
 
-   - `(Jack Warfel 49.62 El Paso TX, Jack Fujita 24.1 Pineville SC, Jack Hackney 28.92 Brooklyn NY, Jack Jacobson 59.37 Rockholds KY)`
+   - Jack Warfel 49.62 El Paso TX
+   - Jack Fujita 24.1 Pineville SC,
+   - Jack Hackney 28.92 Brooklyn NY
+   - Jack Jacobson 59.37 Rockholds KY
 
 5. `SELECT * FROM emp WHERE First_Name LIKE "J%" AND Age_in_Years > 55 AND Gender "F" AND E_mail LIKE "%gmail%"`
 
