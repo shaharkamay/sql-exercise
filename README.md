@@ -1,3 +1,5 @@
+# Answers
+
 1. `SELECT salary FROM emp WHERE Emp_ID = "273407"`
 
    - `(110241)`
